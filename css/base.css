@@ -2,16 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:300,400,500,600,700|Lora:400,400i,700,700i&display=swap");
 
 
-/* ==========================================================================
- * # normalize
- * normalize.css v8.0.1 | MIT License |
- * github.com/necolas/normalize.css
- *
- * -------------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------- 
- * ## document
- * ------------------------------------------------------------------- */
+
+
 
 /* 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.*/
@@ -20,9 +13,7 @@ html {
 	-webkit-text-size-adjust: 100%;  /* 2 */
 }
 
-/* ------------------------------------------------------------------- 
- * ## sections
- * ------------------------------------------------------------------- */
+/*sections */
 
 /* Remove the margin in all browsers. */
 body {
@@ -41,9 +32,7 @@ h1 {
 	margin: 0.67em 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## grouping
- * ------------------------------------------------------------------- */
+/* grouping */
 
 /* 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE. */
@@ -60,31 +49,27 @@ pre {
 	font-size: 1em;  /* 2 */
 }
 
-/* ------------------------------------------------------------------- 
- * ## text-level semantics
- * ------------------------------------------------------------------- */
+/* text-level semantics*/
 
-/* Remove the gray background on active links in IE 10. */
+
 a {
 	background-color: transparent;
 }
 
-/* 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
+
 abbr[title] {
 	border-bottom: none;  /* 1 */
 	text-decoration: underline;  /* 2 */
-	text-decoration: underline dotted;  /* 2 */
+
 }
 
-/* Add the correct font weight in Chrome, Edge, and Safari. */
+
 b,
 strong {
 	font-weight: bolder;
 }
 
-/* 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers. */
+
 code,
 kbd,
 samp {
@@ -92,7 +77,7 @@ samp {
 	font-size: 1em;  /* 2 */
 }
 
-/* Add the correct font size in all browsers. */
+
 small {
 	font-size: 80%;
 }
@@ -115,18 +100,14 @@ sup {
 	top: -0.5em;
 }
 
-/* ------------------------------------------------------------------- 
- * ## embedded content
- * ------------------------------------------------------------------- */
+/* ## embedded content*/
 
 /* Remove the border on images inside links in IE 10. */
 img {
 	border-style: none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## forms
- * ------------------------------------------------------------------- */
+/*forms */
 
 /* 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari. */
@@ -245,9 +226,7 @@ textarea {
 	font: inherit;  /* 2 */
 }
 
-/* ------------------------------------------------------------------- 
- * ## interactive
- * ------------------------------------------------------------------- */
+/* interactive */
 
 /* Add the correct display in Edge, IE 10+, and Firefox. */
 details {
@@ -259,9 +238,7 @@ summary {
 	display: list-item;
 }
 
-/* ------------------------------------------------------------------- 
- * ## misc
- * ------------------------------------------------------------------- */
+/* misc */
 
 /* Add the correct display in IE 10+. */
 template {
@@ -274,10 +251,7 @@ template {
 }
 
 
-/* ===================================================================
- * # basic/base setup styles
- *
- * ------------------------------------------------------------------- */
+/* basic/base setup styles */
 html {
 	font-size: 62.5%;
 	box-sizing: border-box;
@@ -300,9 +274,7 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## Media
- * ------------------------------------------------------------------- */
+/* Media */
 svg,
 img,
 video,
@@ -313,9 +285,7 @@ object {
 	height: auto;
 }
 
-/* ------------------------------------------------------------------- 
- * ## Typography resets 
- * ------------------------------------------------------------------- */
+/*Typography resets */
 div,
 dl,
 dt,
@@ -370,9 +340,7 @@ li {
 	display: block;
 }
 
-/* ------------------------------------------------------------------- 
- * ## links
- * ------------------------------------------------------------------- */
+/* links */
 a {
 	text-decoration: none;
 	line-height: inherit;
@@ -382,9 +350,7 @@ a img {
 	border: none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## inputs
- * ------------------------------------------------------------------- */
+/*inputs */
 fieldset {
 	margin: 0;
 	padding: 0;
@@ -404,18 +370,7 @@ textarea {
 }
 
 
-/* ===================================================================
- * # grid v2.1.0
- *
- *   -----------------------------------------------------------------
- * - Grid breakpoints are based on MAXIMUM WIDTH media queries, 
- *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
- * - Grid columns without a specified width will automatically layout 
- *   as equal width columns.
- * ------------------------------------------------------------------- */
-
-/* rows
- * ------------------------------------- */
+/* grid v2.1.0 */
 .row {
 	width: 89%;
 	max-width: 1340px;
@@ -435,8 +390,7 @@ textarea {
 	margin-right: -20px;
 }
 
-/* columns
- * -------------------------------------- */
+/* columns- */
 .column {
 	-webkit-flex: 1 1 0%;
 	-ms-flex: 1 1 0%;
@@ -449,8 +403,7 @@ textarea {
 	padding: 0;
 }
 
-/* flex row containers utility classes
- * ----------------------------------------- */
+/* flex row containers utility classes- */
 .row.row-wrap {
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
@@ -511,8 +464,7 @@ textarea {
 	justify-content: center;
 }
 
-/* flex item utility alignment classes
- * ----------------------------------------- */
+/* flex item utility alignment classes */
 .align-center {
 	margin: auto;
 	-webkit-align-self: center;
@@ -565,8 +517,7 @@ textarea {
 	align-self: flex-end;
 }
 
-/* large screen column widths 
- * -------------------------------------- */
+/* large screen column widths  */
 .large-1 {
 	-webkit-flex: 0 0 8.33333%;
 	-ms-flex: 0 0 8.33333%;
@@ -653,9 +604,7 @@ textarea {
 	max-width: 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## medium screen devices
- * ------------------------------------------------------------------- */
+/*medium screen devices */
 @media screen and (max-width:1200px) {
 	.row .row {
 		margin-left: -16px;
@@ -754,9 +703,7 @@ textarea {
 
 }
 
-/* ------------------------------------------------------------------- 
- * ## tablets
- * ------------------------------------------------------------------- */
+/*  tablets */
 @media screen and (max-width:800px) {
 	.tab-1 {
 		-webkit-flex: 0 0 8.33333%;
@@ -850,9 +797,7 @@ textarea {
 
 }
 
-/* ------------------------------------------------------------------- 
- * ## mobile devices 
- * ------------------------------------------------------------------- */
+/* mobile devices  */
 @media screen and (max-width:600px) {
 	.row {
 		width: 100%;
@@ -963,9 +908,7 @@ textarea {
 
 }
 
-/* ------------------------------------------------------------------- 
- * ## small mobile devices <= 400px
- * ------------------------------------------------------------------- */
+/*small mobile devices <= 400px */
 @media screen and (max-width:400px) {
 	.row {
 		padding-left: 22px;
@@ -991,12 +934,7 @@ textarea {
 }
 
 
-/* ===================================================================
- * # block grids
- *
- * -------------------------------------------------------------------
- * Equally-sized columns define at parent/row level.
- * ------------------------------------------------------------------- */
+/*block grids */
 .block-large-1-8 > .column {
 	-webkit-flex: 0 0 12.5%;
 	-ms-flex: 0 0 12.5%;
@@ -1046,9 +984,7 @@ textarea {
 	max-width: 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - medium screen devices
- * ------------------------------------------------------------------- */
+/* block grids - medium screen devices- */
 @media screen and (max-width:1200px) {
 	.block-medium-1-8 > .column {
 		-webkit-flex: 0 0 12.5%;
@@ -1101,9 +1037,7 @@ textarea {
 
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - tablets
- * ------------------------------------------------------------------- */
+/*block grids - tablets */
 @media screen and (max-width:800px) {
 	.block-tab-1-8 > .column {
 		-webkit-flex: 0 0 12.5%;
@@ -1156,9 +1090,7 @@ textarea {
 
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - mobile devices
- * ------------------------------------------------------------------- */
+/*  block grids - mobile devices */
 @media screen and (max-width:600px) {
 	.block-mob-1-8 > .column {
 		-webkit-flex: 0 0 12.5%;
@@ -1211,9 +1143,7 @@ textarea {
 
 }
 
-/* ------------------------------------------------------------------- 
- * ## block grids - small mobile devices <= 400px
- * ------------------------------------------------------------------- */
+/* block grids - small mobile devices <= 400px */
 @media screen and (max-width:400px) {
 	.stack > .column {
 		-webkit-flex: 0 0 100%;
@@ -1229,18 +1159,14 @@ textarea {
 }
 
 
-/* ===================================================================
- * # MISC
- *
- * ------------------------------------------------------------------- */
+/* MISC */
 .h-group:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-/* misc helper classes
- * -------------------------------------- */
+/* misc helper classes */
 .is-hidden {
 	display: none;
 }

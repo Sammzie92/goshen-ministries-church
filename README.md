@@ -19,4 +19,5 @@ this is a custom code website, therefore, upon completion, this will be handed o
 doing web updates {for SEO} 
 
 smooth scrolling added for a better feel when browsing 
+Prevent adjustments of font size after orientation changes in iOS.
 

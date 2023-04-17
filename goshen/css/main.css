@@ -89,11 +89,11 @@
 /*HTML and body*/
 
 html,
-body {
+#body {
 height: 100%;
 }
 
-body {
+#body {
 
 font-family: "Lora", serif;
 font-size: 2rem;
@@ -101,13 +101,13 @@ font-style: normal;
 font-weight: normal;
 line-height: 1.8;
 color: #000000;
+  background-color: #d67a21;
 margin: 0;
 padding: 0;
 position: relative;
+  z-index: 99999;
 }
-/* -------------------------------------------------------------------
-* ## links
-* ------------------------------------------------------------------- */
+/* links*/
 a {
 color: #3b0d11;
 transition: all 0.3s ease-in-out;
@@ -124,10 +124,7 @@ a:active {
 outline: 0;
 }
 
-/* ===================================================================
-* # typography & general theme styles
-* 
-* ------------------------------------------------------------------- */
+/*typography & general theme styles */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -2791,9 +2788,7 @@ html.no-csstransitions .hero-content {
   margin-bottom: 5.6rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## series image 
- * ------------------------------------------------------------------- */
+/*series image */
 .series-img {
   display: block;
   background-repeat: no-repeat;
@@ -2817,9 +2812,7 @@ html.no-csstransitions .hero-content {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* ------------------------------------------------------------------- 
- * ## series content 
- * ------------------------------------------------------------------- */
+/* series content  */
 .series-content {
   padding: 12rem 6.8rem 8.8rem;
   max-width: 1340px;
@@ -2835,9 +2828,7 @@ html.no-csstransitions .hero-content {
   padding-left: 7.2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## series buttons 
- * ------------------------------------------------------------------- */
+/*series buttons- */
 .series-content__buttons {
   padding-bottom: 4.8rem;
   margin-top: 1.6rem;
@@ -2852,14 +2843,12 @@ html.no-csstransitions .hero-content {
 
 .series-content__buttons .btn:hover,
 .series-content__buttons .btn:focus {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #d67a21;
+  border-color: #d67a21;
   color: #000000;
 }
 
-/* ------------------------------------------------------------------- 
- * ## series subscribe 
- * ------------------------------------------------------------------- */
+/* series subscribe  */
 .series-content__subscribe {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
@@ -2911,10 +2900,7 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/icons/podcast/icon-youtube.svg);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * series
- * ------------------------------------------------------------------- */
+/*responsive series */
 @media screen and (max-width:1400px) {
   .series-content {
     padding: 12rem 4rem 8.8rem;
@@ -2997,14 +2983,11 @@ html.no-csstransitions .hero-content {
 }
 
 
-/* ===================================================================
- * # social  
- *
- * ------------------------------------------------------------------- */
+/*social*/
 .s-social {
   padding-top: 10.4rem;
   padding-bottom: 9.6rem;
-  background-color: #000000;
+  background-color: white;
 }
 
 .social-content {
@@ -3083,10 +3066,7 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/icons/social/icon-email.svg);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * social
- * ------------------------------------------------------------------- */
+/* responsive * social */
 @media screen and (max-width:1200px) {
   .social-list li {
     margin-right: 1.2rem;
@@ -3145,10 +3125,7 @@ html.no-csstransitions .hero-content {
 }
 
 
-/* ===================================================================
- * # footer 
- *
- * ------------------------------------------------------------------- */
+/*footer */
 .s-footer {
   padding-top: 12rem;
   padding-bottom: 8rem;
@@ -3185,9 +3162,7 @@ html.no-csstransitions .hero-content {
   margin-right: auto;
 }
 
-/* -------------------------------------------------------------------
- * ## footer logo 
- * ------------------------------------------------------------------- */
+/*footer logo */
 .footer-logo {
   margin-bottom: 2.8rem;
 }
@@ -3198,9 +3173,7 @@ html.no-csstransitions .hero-content {
 
 
 
-/* -------------------------------------------------------------------
- * ## footer list 
- * ------------------------------------------------------------------- */
+/*footer list */
 .footer-list {
   list-style: none;
   margin-left: 0;
@@ -3219,9 +3192,7 @@ html.no-csstransitions .hero-content {
   padding-left: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## copyright 
- * ------------------------------------------------------------------- */
+/* copyright */
 .ss-copyright {
   margin-top: 4.8rem;
   padding-right: 80px;
@@ -3244,9 +3215,7 @@ html.no-csstransitions .hero-content {
   display: none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## go to top 
- * ------------------------------------------------------------------- */
+/*go to top */
 .ss-go-top {
   z-index: 2;
   opacity: 0;
@@ -3302,10 +3271,7 @@ html.no-csstransitions .hero-content {
   transform: translate3d(0, 0, 0);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * footer
- * ------------------------------------------------------------------- */
+/* responsivefooter */
 @media screen and (max-width:1400px) {
   .ss-go-top {
     bottom: 3.6rem;
@@ -3344,14 +3310,9 @@ html.no-csstransitions .hero-content {
 }
 
 
-/* ===================================================================
- * # page styles and page components 
- *
- * ------------------------------------------------------------------- */
+/* page styles and page components  */
 
-/* ------------------------------------------------------------------- 
- * ## page header 
- * ------------------------------------------------------------------- */
+/*## page header */
 .page-header {
   min-height: 24rem;
   padding-top: 24rem;
@@ -3419,9 +3380,7 @@ html.no-csstransitions .hero-content {
   position: relative;
 }
 
-/* ------------------------------------------------------------------- 
- * ## page content 
- * ------------------------------------------------------------------- */
+/*page content*/
 .page-content {
   padding-top: 12rem;
   padding-bottom: 16rem;
@@ -3432,12 +3391,9 @@ html.no-csstransitions .hero-content {
   max-width: 1080px;
 }
 
-/* ------------------------------------------------------------------- 
- * ## about page 
- * ------------------------------------------------------------------- */
+/* about page  */
 
-/* church staff
- * ----------------------------------------------- */
+/* church staff */
 .church-staff {
   margin-top: 6rem;
 }
@@ -3487,12 +3443,9 @@ html.no-csstransitions .hero-content {
   border-radius: 50%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## event page 
- * ------------------------------------------------------------------- */
+/*  event page  */
 
-/* event content
- * ----------------------------------------------- */
+/* event content */
 .event-content {
   max-width: 800px;
   margin-left: auto;
@@ -3540,10 +3493,7 @@ html.no-csstransitions .hero-content {
   content: " :";
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * page styles
- * ------------------------------------------------------------------- */
+/* responsive page styles */
 @media screen and (max-width:800px) {
   .page-header {
     padding-top: 20rem;
