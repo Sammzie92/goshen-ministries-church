@@ -101,6 +101,10 @@
   }
 }
 
+.construction button{
+display: flex;
+}
+
 .row{
     position: absolute;
     bottom: 0;
