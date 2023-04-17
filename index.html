@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
 
+
     <!-- script-->
     <script src="js/modernizr.js"></script>
+    <script src="https://www.youtube.com/AIzaSyBH56TFMbYKFjjT38ocov0YsRfiw8mPdPw"></script>
+
 
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -45,9 +48,9 @@
         <nav class="header-nav-wrap">
             <ul class="header-nav">
                 <li class="current"><a href="index.html" title="Home">Home</a></li>
-                <li><a href="#" title="About">About</a></li>
-                <li><a href="#" title="Services">Events</a></li>
-                <li><a href="#" title="Contact us">Contact</a></li>
+                <li><a href="temp.html" title="About">About</a></li>
+                <li><a href="temp.html" title="Services">Events</a></li>
+                <li><a href="temp.html" title="Contact us">Contact</a></li>
             </ul>
         </nav>
 
@@ -66,14 +69,14 @@
 
             <div class="column large-full hero-content__text">
                 <h1>
-                    Transforming<br>
+                    Changing<br>
                     Hearts,<br>
                     Renewing minds.
                 </h1>
 
                 <div class="hero-content__buttons">
-                    <a href="#" class="btn btn--stroke">Upcoming Events</a>
-                    <a href="#" class="btn btn--stroke">Live Stream</a>
+                    <a href="temp.html" class="btn btn--stroke">Upcoming Events</a>
+                    <a href="temp.html" class="btn btn--stroke">Live Stream</a>
                 </div>
             </div>
             <!-- end hero-content text -->
@@ -114,7 +117,7 @@
                     Goshen Ministries Church is led by a team of dedicated pastors and leaders who are passionate about sharing the gospel of Jesus Christ and serving the needs of the community.
                     Whether you are a lifelong Christian or just starting to explore your faith, Goshen Ministries Church welcomes you to come and join its growing community.
                 </p>
-                <a href="#" class="btn btn--primary btn--about">More About Goshen</a>
+                <a href="temp.html" class="btn btn--primary btn--about">More About Goshen</a>
             </div>
 
             <div class="column large-half medium-full">
@@ -161,7 +164,7 @@
                     serving and helping others.
                 </p>
 
-                <a href="#" class="btn btn--primary h-full-width">I'm Interested</a>
+                <a href="temp.html" class="btn btn--primary h-full-width">I'm Interested</a>
             </div>
             <div class="column large-half tab-full">
                 <h3 class="display-1">Join a Connect Group.</h3>
@@ -170,7 +173,7 @@
                     Connect Groups are a great way to get connected and be part of a vibrant Christian community.
                 </p>
 
-                <a href="#" class="btn btn--primary h-full-width">Learn More</a>
+                <a href="temp.html" class="btn btn--primary h-full-width">Learn More</a>
             </div>
         </div> <!-- end connect-content  -->
 
@@ -190,7 +193,7 @@
 
             <div class="column events-list__item">
                 <h3 class="display-1 events-list__item-title">
-                    <a href="#" title="">2023 Kids Church Camp.</a>
+                    <a href="temp.html" title="">2023 Kids Church Camp.</a>
                 </h3>
                 <p>
                     Sending your kids to Goshen Ministries Kids Church Camp provides a fun and
@@ -206,7 +209,7 @@
             </div> <!-- end events-list__item -->
             <div class="column events-list__item">
                 <h3 class="display-1 events-list__item-title">
-                    <a href="#" title="">Prayer Meeting.</a>
+                    <a href="temp.html" title="">Prayer Meeting.</a>
                 </h3>
                 <p>
                     Attending a prayer meeting at Goshen Ministries is a powerful and
@@ -225,7 +228,7 @@
             </div> <!-- end events-list__item -->
             <div class="column events-list__item">
                 <h3 class="display-1 events-list__item-title">
-                    <a href="#" title="">Youth Convergence.</a>
+                    <a href="temp.html" title="">Youth Convergence.</a>
                 </h3>
                 <p>
                     Youth Convergence provides a space for young people to grow in their faith, build friendships,
@@ -279,7 +282,9 @@
 
             <div class="column large-half medium-full">
                 <div class="series-content__buttons">
-                    <a href="" class="btn btn--large h-full-width">Watch the Video</a>
+
+                    <div id="player"></div>
+                    <button onclick="loadVideo()" class="btn btn--large h-full-width">Watch the Video</button>
                     <a href="" class="btn btn--large h-full-width">Listen To the Message</a>
                 </div>
 
@@ -300,7 +305,6 @@
             
         </div>
         <!-- series-content -->
-
     </section>
     <!-- end s-series -->
 
@@ -377,11 +381,11 @@
                         <h4 class="h6">Quick Links</h4>
                         <ul class="footer-list">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Volunteer</a></li>
-                            <li><a href="#">Connect Groups</a></li>
-                            <li><a href="#">Upcoming Events</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="temp.html">About</a></li>
+                            <li><a href="temp.html">Volunteer</a></li>
+                            <li><a href="temp.html">Connect Groups</a></li>
+                            <li><a href="temp.html">Upcoming Events</a></li>
+                            <li><a href="temp.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -390,9 +394,9 @@
         <!-- end footer-top -->
 
         <div class="row footer-bottom">
-            <div class="column ss-copyright">
-                  Goshen Ministries&copy;  <script>document.write(new Date().getFullYear());</script>
-                <span>|Sammzie Prod </span>
+            <div class="column copyright">
+                  Goshen Ministries &copy;  <script>document.write(new Date().getFullYear());</script>
+                <span>| Sammzie Prod </span>
            </div>
         </div> <!-- footer-bottom -->
 
@@ -406,6 +410,7 @@
 
 
     <!-- Java Script -->
+
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>

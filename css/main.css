@@ -1,72 +1,4 @@
-/* =================================================================== 
- *  Hesed Main Stylesheet
- *  Template Ver. 1.0.0
- *  06-26-2019
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # custom block grid STACK breakpoints
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## lists
- *    ## responsive video container
- *    ## floated image
- *    ## tables
- *    ## spacing 
- *  # preloader
- *  # forms
- *    ## style placeholder text
- *    ## change autocomplete styles in Chrome
- *  # buttons
- *  # additional components
- *    ## additional typo styles
- *    ## skillbars
- *    ## alert box
- *    ## pagination
- *  # common and reusable styles
- *    ## events list
- *    ## block list
- *  # site header
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle
- *  # hero
- *    ## hero left bar
- *    ## hero content
- *    ## hero content buttons
- *    ## hero social
- *    ## hero scroll
- *    ## hero animations
- *  # about
- *    ## about content
- *    ## schedule of services
- *  # connect
- *  # events
- *  # current series
- *    ## series image
- *    ## series content
- *    ## series buttons
- *    ## series subscribe
- *  # social
- *  # footer
- *    ## footer logo
- *    ## footer list
- *    ## copyright
- *    ## go to top
- *  # page styles and page components
- *    ## page header
- *    ## page content
- *    ## about page
- *    ## event page
- *
- * =================================================================== */
 
-
-/* ===================================================================
- * # custom block grid STACK breakpoints
- *
- * ------------------------------------------------------------------- */
  @media screen and (max-width:1000px) {
   .block-1000-full > .column {
     -webkit-flex: 0 0 100%;
@@ -105,9 +37,7 @@ margin: 0;
 padding: 0;
 position: relative;
 }
-/* -------------------------------------------------------------------
-* ## links
-* ------------------------------------------------------------------- */
+/* links */
 a {
 color: #3b0d11;
 transition: all 0.3s ease-in-out;
@@ -124,10 +54,7 @@ a:active {
 outline: 0;
 }
 
-/* ===================================================================
-* # typography & general theme styles
-* 
-* ------------------------------------------------------------------- */
+/*typography & general theme styles */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -386,9 +313,7 @@ hr {
   margin: 8rem 0 9.6rem;
   height: 0;
 }
-/* ------------------------------------------------------------------- 
- * ## lists
- * ------------------------------------------------------------------- */
+/* lists */
 ol {
   list-style: decimal;
 }
@@ -446,9 +371,7 @@ dd {
   margin: 0 0 0 2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## responsive video container
- * ------------------------------------------------------------------- */
+/* responsive video container*/
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -467,9 +390,7 @@ dd {
   height: 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## floated image
- * ------------------------------------------------------------------- */
+/* floated image */
 img.h-pull-right {
   margin: 1.2rem 0 1.2rem 2.8rem;
 }
@@ -478,9 +399,7 @@ img.h-pull-left {
   margin: 1.2rem 2.8rem 1.2rem 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## tables
- * ------------------------------------------------------------------- */
+/* tables */
 table {
   border-width: 0;
   width: 100%;
@@ -517,9 +436,7 @@ td:last-child {
   -webkit-overflow-scrolling: touch;
 }
 
-/* ------------------------------------------------------------------- 
- * ## spacing
- * ------------------------------------------------------------------- */
+/* spacing*/
 button,
 .btn {
   margin-bottom: 1.6rem;
@@ -547,14 +464,6 @@ form,
 }
 
 
-/* ===================================================================
- * # preloader
- *
- * ------------------------------------------------------------------- */
-
-
-/* ===================================================================
- * # my custom preloader
  /* Custom preloader--start of designs here*/
 #preloader{
     position: fixed;
@@ -563,8 +472,6 @@ form,
     overflow: hidden;
     height: 100%;
     width: 100%;
-
-
 
 }
 .orbit-spinner, .orbit-spinner * {
@@ -586,7 +493,6 @@ form,
   transform: translate(-50%, -50%);
 
 }
-
 
     .orbit-spinner .orbit {
       position: absolute;
@@ -835,10 +741,7 @@ form,
 }
 
 
-/* ===================================================================
- * # forms
- *
- * ------------------------------------------------------------------- */
+/*forms */
 fieldset {
   border: none;
 }
@@ -958,38 +861,36 @@ label > input[type="radio"] {
   top: .2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## style placeholder text
- * ------------------------------------------------------------------- */
+/* style placeholder text */
 ::-webkit-input-placeholder {
 
-  /* WebKit, Blink, Edge */
+
   color: #8c8c8c;
 }
 
 :-moz-placeholder {
 
-  /* Mozilla Firefox 4 to 18 */
+
   color: #8c8c8c;
   opacity: 1;
 }
 
 ::-moz-placeholder {
 
-  /* Mozilla Firefox 19+ */
+
   color: #8c8c8c;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
 
-  /* Internet Explorer 10-11 */
+
   color: #8c8c8c;
 }
 
 ::-ms-input-placeholder {
 
-  /* Microsoft Edge */
+
   color: #8c8c8c;
 }
 
@@ -1003,9 +904,7 @@ label > input[type="radio"] {
   color: #8c8c8c !important;
 }
 
-/* ------------------------------------------------------------------- 
- * ## change autocomplete styles in Chrome
- * ------------------------------------------------------------------- */
+/*  change autocomplete styles in Chrome */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -1021,10 +920,7 @@ select:-webkit-autofill:focus {
 }
 
 
-/* ===================================================================
- * # buttons
- *
- * ------------------------------------------------------------------- */
+/*  buttons */
 .btn,
 button,
 input[type="submit"],
@@ -1068,8 +964,7 @@ input[type="button"]:focus {
   outline: 0;
 }
 
-/* button primary
- * ------------------------------------------------- */
+/* button primary */
 .btn.btn--primary,
 button.btn--primary,
 input[type="submit"].btn--primary,
@@ -1094,8 +989,7 @@ input[type="button"].btn--primary:focus {
   border-color: #000000;
 }
 
-/* button modifiers
- * ------------------------------------------------- */
+/* button modifiers */
 .btn.h-full-width,
 button.h-full-width {
   width: 100%;
@@ -1148,14 +1042,9 @@ input::-moz-focus-inner {
 }
 
 
-/* =================================================================== 
- * # additional components
- *
- * ------------------------------------------------------------------- */
+/*additional components */
 
-/* ------------------------------------------------------------------- 
- * ## additional typo styles
- * ------------------------------------------------------------------- */
+
 .drop-cap:first-letter {
   float: left;
   font-family: "Lora", serif;
@@ -1168,8 +1057,7 @@ input::-moz-focus-inner {
   color: #000000;
 }
 
-/* line definition style 
- * ----------------------------------------------- */
+/* line definition style  */
 .lining dt,
 .lining dd {
   display: inline;
@@ -1195,8 +1083,7 @@ input::-moz-focus-inner {
   margin-left: -0.2em;
 }
 
-/* dictionary definition style 
- * ----------------------------------------------- */
+/* dictionary definition style  */
 .dictionary-style dt {
   display: inline;
   counter-reset: definitions;
@@ -1216,18 +1103,7 @@ input::-moz-focus-inner {
   content: counter(definitions, decimal) ". ";
 }
 
-/** 
- * Pull Quotes
- * -----------
- * markup:
- *
- * <aside class="pull-quote">
- *    <blockquote>
- *      <p></p>
- *    </blockquote>
- *  </aside>
- *
- * --------------------------------------------------------------------- */
+/*Pull Quotes*/
 .pull-quote {
   position: relative;
   padding: 2.4rem 0;
@@ -1253,16 +1129,6 @@ input::-moz-focus-inner {
   left: 4rem;
 }
 
-/** 
- * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *    <li><a href="#">[value]<em>[name]</em></a></li>
- *  </ul>
- *
- * Extend this object into your markup. */
 .stats-tabs {
   padding: 0;
   margin: 3.2rem 0;
@@ -1304,9 +1170,7 @@ input::-moz-focus-inner {
   color: #646464;
 }
 
-/* ------------------------------------------------------------------- 
- * ## skillbars
- * ------------------------------------------------------------------- */
+/* skillbars */
 .skill-bars {
   list-style: none;
   margin: 6.8rem 0 3.2rem;
@@ -1446,9 +1310,7 @@ input::-moz-focus-inner {
   width: 100%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## alert box
- * ------------------------------------------------------------------- */
+/*  alert box */
 .alert-box {
   padding: 2.4rem 4rem 2.4rem 3.2rem;
   position: relative;
@@ -1531,9 +1393,7 @@ input::-moz-focus-inner {
   background-color: #827217;
 }
 
-/* -------------------------------------------------------------------
- * ## pagination
- * ------------------------------------------------------------------- */
+/*pagination*/
 .pgn {
   margin: 3.2rem auto 3.2rem;
   text-align: center;
@@ -1631,10 +1491,7 @@ input::-moz-focus-inner {
   background-color: transparent;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * pagination
- * ------------------------------------------------------------------- */
+/* responsive pagination */
 @media screen and (max-width:600px) {
   .pgn ul {
     padding: 0 5.2rem;
@@ -1643,10 +1500,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ===================================================================
- * # common and reusable styles
- *
- * ------------------------------------------------------------------- */
+/*common and reusable styles */
 .wide {
   max-width: 1400px;
 }
@@ -1681,9 +1535,7 @@ input::-moz-focus-inner {
   margin-bottom: 2.8rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## events list
- * ------------------------------------------------------------------- */
+/* events list */
 .events-list .column:nth-child(2n+1) {
   padding-right: 2.4vw;
 }
@@ -1753,9 +1605,7 @@ input::-moz-focus-inner {
   width: 2.6rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## block list
- * ------------------------------------------------------------------- */
+/* block list*/
 .block-list {
   margin-top: 6.4rem;
   counter-reset: ctr;
@@ -1799,10 +1649,7 @@ input::-moz-focus-inner {
   top: -1rem;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * common and reusable styles
- * ------------------------------------------------------------------- */
+/* responsive common and reusable styles */
 @media screen and (max-width:1200px) {
   .display-1 {
     font-size: 3.2rem;
@@ -1868,9 +1715,7 @@ input::-moz-focus-inner {
   left: 0;
 }
 
-/* -------------------------------------------------------------------
- * ## header logo
- * ------------------------------------------------------------------- */
+/* header logo */
 .header-logo {
   z-index: 102;
   display: inline-block;
@@ -1903,9 +1748,7 @@ input::-moz-focus-inner {
 }
 
 
-/* -------------------------------------------------------------------
- * ## main navigation
- * ------------------------------------------------------------------- */
+/* main navigation */
 .header-nav-wrap {
   z-index: 101;
   position: absolute;
@@ -1936,9 +1779,7 @@ input::-moz-focus-inner {
   margin: 0 .8rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## mobile menu toggle
- * ------------------------------------------------------------------- */
+/*  mobile menu toggle */
 .header-menu-toggle {
   z-index: 102;
   display: none;
@@ -2019,10 +1860,7 @@ input::-moz-focus-inner {
   transform: rotate(225deg);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * header
- * ------------------------------------------------------------------- */
+/*responsive header */
 @media screen and (max-width:1400px) {
   .header-logo {
     left: 9.8rem;
@@ -2106,9 +1944,7 @@ input::-moz-focus-inner {
 
 }
 
-/* -------------------------------------------------------------------
- * make sure menu is visible on larger screens
- * ------------------------------------------------------------------- */
+/*make sure menu is visible on larger screens */
 @media only screen and (min-width:801px) {
   .header-nav-wrap {
     display: block !important;
@@ -2117,10 +1953,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ===================================================================
- * # hero
- *
- * ------------------------------------------------------------------- */
+/* hero */
 .s-hero {
   width: 100%;
   height: 100vh;
@@ -2146,9 +1979,7 @@ input::-moz-focus-inner {
   background: #000000;
 }
 
-/* -------------------------------------------------------------------
- * ## hero left bar
- * ------------------------------------------------------------------- */
+/* hero left bar */
 .hero-left-bar {
   height: 100%;
   width: 8rem;
@@ -2160,9 +1991,7 @@ input::-moz-focus-inner {
   bottom: 0;
 }
 
-/* -------------------------------------------------------------------
- * ## hero content
- * ------------------------------------------------------------------- */
+/* hero content*/
 .hero-content {
   height: 100%;
   max-width: 1400px;
@@ -2201,9 +2030,7 @@ input::-moz-focus-inner {
   left: .8rem;
 }
 
-/* -------------------------------------------------------------------
- * ## hero content buttons
- * ------------------------------------------------------------------- */
+/*  hero content buttons */
 .hero-content__buttons {
   position: absolute;
   right: 3rem;
@@ -2224,9 +2051,7 @@ input::-moz-focus-inner {
   color: #000000;
 }
 
-/* ------------------------------------------------------------------- 
- * ## hero social
- * ------------------------------------------------------------------- */
+/* hero social */
 .hero-social {
   list-style: none;
   font-family: "Montserrat", sans-serif;
@@ -2289,9 +2114,7 @@ input::-moz-focus-inner {
   margin-right: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## hero scroll
- * ------------------------------------------------------------------- */
+/*  hero scroll */
 .hero-scroll {
   position: absolute;
   right: 6rem;
@@ -2347,9 +2170,7 @@ html.no-csstransitions .hero-content {
   opacity: 1;
 }
 
-/* ------------------------------------------------------------------- 
- * ## hero animations
- * ------------------------------------------------------------------- */
+/* hero animations */
 
 /* fade in */
 @-webkit-keyframes fadeIn {
@@ -2417,10 +2238,7 @@ html.no-csstransitions .hero-content {
 
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * hero
- * ------------------------------------------------------------------- */
+/*responsive hero */
 @media screen and (max-width:1700px) {
   .hero-content h1 {
     margin-left: 4rem;
@@ -2607,9 +2425,7 @@ html.no-csstransitions .hero-content {
   border-color: #21070a;
 }
 
-/* ------------------------------------------------------------------- 
- * ## about content
- * ------------------------------------------------------------------- */
+/* about content*/
 .about-content .column:first-child {
   padding-right: 2.4vw;
 }
@@ -2618,9 +2434,7 @@ html.no-csstransitions .hero-content {
   padding-left: 2.4vw;
 }
 
-/* ------------------------------------------------------------------- 
- * ## schedule of services
- * ------------------------------------------------------------------- */
+/* schedule of services */
 .about-sched {
   list-style: none;
   margin: 0;
@@ -2642,10 +2456,7 @@ html.no-csstransitions .hero-content {
   padding-left: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * about
- * ------------------------------------------------------------------- */
+/* responsive about */
 @media screen and (max-width:1200px) {
   .about-content {
     max-width: 900px;
@@ -2725,10 +2536,7 @@ html.no-csstransitions .hero-content {
   margin-right: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * connect
- * ------------------------------------------------------------------- */
+/* responsive connect */
 @media screen and (max-width:1000px) {
   .connect-content .column:first-child {
     padding-right: 2.2vw;
@@ -2837,9 +2645,7 @@ html.no-csstransitions .hero-content {
   margin-bottom: 5.6rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## series image 
- * ------------------------------------------------------------------- */
+/* series image  */
 .series-img {
   display: block;
   background-repeat: no-repeat;
@@ -2863,9 +2669,7 @@ html.no-csstransitions .hero-content {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* ------------------------------------------------------------------- 
- * ## series content 
- * ------------------------------------------------------------------- */
+/* series content */
 .series-content {
   padding: 12rem 6.8rem 8.8rem;
   max-width: 1340px;
@@ -2881,9 +2685,7 @@ html.no-csstransitions .hero-content {
   padding-left: 7.2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * ## series buttons 
- * ------------------------------------------------------------------- */
+/* series buttons  */
 .series-content__buttons {
   padding-bottom: 4.8rem;
   margin-top: 1.6rem;
@@ -2903,9 +2705,7 @@ html.no-csstransitions .hero-content {
   color: #000000;
 }
 
-/* ------------------------------------------------------------------- 
- * ## series subscribe 
- * ------------------------------------------------------------------- */
+/* series subscribe  */
 .series-content__subscribe {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
@@ -2957,10 +2757,7 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/icons/podcast/icon-youtube.svg);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * series
- * ------------------------------------------------------------------- */
+/* responsive series */
 @media screen and (max-width:1400px) {
   .series-content {
     padding: 12rem 4rem 8.8rem;
@@ -3129,10 +2926,7 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/icons/social/icon-email.svg);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * social
- * ------------------------------------------------------------------- */
+/*responsive social- */
 @media screen and (max-width:1200px) {
   .social-list li {
     margin-right: 1.2rem;
@@ -3191,10 +2985,7 @@ html.no-csstransitions .hero-content {
 }
 
 
-/* ===================================================================
- * # footer 
- *
- * ------------------------------------------------------------------- */
+/* footer  */
 .s-footer {
   padding-top: 12rem;
   padding-bottom: 8rem;
@@ -3231,9 +3022,7 @@ html.no-csstransitions .hero-content {
   margin-right: auto;
 }
 
-/* -------------------------------------------------------------------
- * ## footer logo 
- * ------------------------------------------------------------------- */
+/* footer logo  */
 .footer-logo {
   margin-bottom: 2.8rem;
 }
@@ -3244,9 +3033,7 @@ html.no-csstransitions .hero-content {
 
 
 
-/* -------------------------------------------------------------------
- * ## footer list 
- * ------------------------------------------------------------------- */
+/*  footer list */
 .footer-list {
   list-style: none;
   margin-left: 0;
@@ -3265,34 +3052,30 @@ html.no-csstransitions .hero-content {
   padding-left: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## copyright 
- * ------------------------------------------------------------------- */
-.ss-copyright {
+/* copyright */
+.copyright {
   margin-top: 4.8rem;
   padding-right: 80px;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.ss-copyright span {
+.copyright span {
   font-size: 15px;
   display: inline-block;
 }
 
-.ss-copyright span::after {
+.copyright span::after {
   content: "|";
   display: inline-block;
   padding: 0 1rem 0 1.2rem;
   color: rgba(255, 255, 255, 0.1);
 }
 
-.ss-copyright span:last-child::after {
+.copyright span:last-child::after {
   display: none;
 }
 
-/* ------------------------------------------------------------------- 
- * ## go to top 
- * ------------------------------------------------------------------- */
+/* go to top  */
 .ss-go-top {
   z-index: 2;
   opacity: 0;
@@ -3348,10 +3131,7 @@ html.no-csstransitions .hero-content {
   transform: translate3d(0, 0, 0);
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * footer
- * ------------------------------------------------------------------- */
+/* responsive footer */
 @media screen and (max-width:1400px) {
   .ss-go-top {
     bottom: 3.6rem;
@@ -3361,11 +3141,11 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:800px) {
-  .ss-copyright span {
+  .copyright span {
     display: block;
   }
 
-  .ss-copyright span::after {
+  .copyright span::after {
     display: none;
   }
 
@@ -3389,15 +3169,7 @@ html.no-csstransitions .hero-content {
 
 }
 
-
-/* ===================================================================
- * # page styles and page components 
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## page header 
- * ------------------------------------------------------------------- */
+ /*page header */
 .page-header {
   min-height: 24rem;
   padding-top: 24rem;
@@ -3465,9 +3237,7 @@ html.no-csstransitions .hero-content {
   position: relative;
 }
 
-/* ------------------------------------------------------------------- 
- * ## page content 
- * ------------------------------------------------------------------- */
+/* page content  */
 .page-content {
   padding-top: 12rem;
   padding-bottom: 16rem;
@@ -3478,12 +3248,9 @@ html.no-csstransitions .hero-content {
   max-width: 1080px;
 }
 
-/* ------------------------------------------------------------------- 
- * ## about page 
- * ------------------------------------------------------------------- */
+/* about page  */
 
-/* church staff
- * ----------------------------------------------- */
+/* church staff */
 .church-staff {
   margin-top: 6rem;
 }
@@ -3533,12 +3300,9 @@ html.no-csstransitions .hero-content {
   border-radius: 50%;
 }
 
-/* ------------------------------------------------------------------- 
- * ## event page 
- * ------------------------------------------------------------------- */
+/* event page  */
 
-/* event content
- * ----------------------------------------------- */
+/* event content */
 .event-content {
   max-width: 800px;
   margin-left: auto;
@@ -3586,10 +3350,7 @@ html.no-csstransitions .hero-content {
   content: " :";
 }
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * page styles
- * ------------------------------------------------------------------- */
+/*responsive page styles */
 @media screen and (max-width:800px) {
   .page-header {
     padding-top: 20rem;
@@ -3641,5 +3402,10 @@ html.no-csstransitions .hero-content {
   }
 
 }
+#player iframe {
+  width: 560px !important;
+  height: 315px !important;
+}
+
 
 

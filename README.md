@@ -21,3 +21,10 @@ doing web updates {for SEO}
 smooth scrolling added for a better feel when browsing 
 Prevent adjustments of font size after orientation changes in iOS.
 
+video embedding is now done. 
+Coming soon page added to the unused pages. 
+
+PIP to be explored soon. 
+
+
+

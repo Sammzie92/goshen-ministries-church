@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/temp.css">
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+
+</head>
+
+<body>
+        <div class="container">
+                    <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="logo/transparent.svg" width="160" height="160" alt="Homepage">
+            </a>
+            <div class="construction">
+                 <p> Page coming Soon</p>
+                     <h1> Works <span>Ongoing </span>Here </h1>
+                <div class="launch-time">
+                    <div>
+                        <p id="days">00</p>
+                        <span>Days</span>
+                    </div>
+                    <div>
+                        <p id="hours">00</p>
+                        <span>Hours</span>
+                    </div>
+                    <div>
+                        <p id="minutes">00</p>
+                        <span>Minutes</span>
+                    </div>
+                    <div>
+                        <p id="seconds">00</p>
+                        <span>Seconds</span>
+                    </div>
+
+                </div>
+                      <button type="button"> Go back</button>
+            </div>
+        </div>
+
+
+
+                <div class="row footer-bottom">
+            <div class="column copyright">
+                  Goshen Ministries &copy;  <script>document.write(new Date().getFullYear());</script>
+                <span>| Sammzie Prod </span>
+           </div>
+        </div> <!-- footer-bottom -->
+        </div>
+
+<script>
+    var countDownDate = new Date('May 13, 2023 00:00:00').getTime();
+    var x = setInterval(function (){
+
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+       document.getElementById('days').innerHTML = days;
+       document.getElementById('hours').innerHTML = hours;
+       document.getElementById('minutes').innerHTML = minutes;
+       document.getElementById('seconds').innerHTML = seconds;
+
+       if(distance < 0){
+           clearInterval(x);
+                    document.getElementById('days').innerHTML = '00';
+                    document.getElementById('hours').innerHTML = '00';
+                    document.getElementById('minutes').innerHTML = '00';
+                    document.getElementById('seconds').innerHTML = '00';
+       }
+
+    },1000); // timer can be increased on demand//
+
+
+</script>
+
+
+</body>
+</html>

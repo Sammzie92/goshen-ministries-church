@@ -1,0 +1,107 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/josh.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0.8%;
+  position: relative;
+}
+
+.construction{
+  top: 40%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: white;
+  margin-left: 10%;
+}
+.construction h1{
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.construction p{
+  text-transform: uppercase;
+}
+.construction span{
+  color: #e21c29;
+}
+
+
+.construction button{
+  background: transparent;
+  border: 2px solid #ffffff;
+  outline: none;
+  padding: 12px 25px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 10%;
+
+}
+
+.launch-time{
+  display: flex;
+}
+.launch-time div{
+  flex-basis: 100px;
+}
+.launch-time div p{
+  font-size: 60px;
+  margin-bottom: -14px;
+}
+
+/* footers copyright */
+.copyright  {
+  margin-top: 4.8rem;
+  padding-right: 80px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8;
+}
+.copyright span{
+    font-family: "Lora", serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.8;
+}
+}
+
+.copyright span {
+  font-size: 15px;
+  display: inline-block;
+}
+
+.copyright span::after {
+  content: "|";
+  display: inline-block;
+  padding: 0 1rem 0 1.2rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.copyright span:last-child::after {
+  display: none;
+}
+
+@media screen and (max-width:800px) {
+  .copyright span {
+    display: block;
+  }
+
+  .copyright span::after {
+    display: none;
+
+  }
+}
+
+.row{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
