@@ -149,11 +149,13 @@
   .construction {
     padding-top: 20px;
     text-align: center;
+
   }
 
   .launch-time {
     margin-top: 30px;
     margin-bottom: 30px;
+
   }
 }
 
@@ -234,3 +236,5 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 }
+
+/*End media queries*/
