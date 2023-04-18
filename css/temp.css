@@ -4,9 +4,37 @@
   background-image: url(../images/josh.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   padding: 0.8%;
   position: relative;
 }
+/*media queries for container*/
+/* Mobile devices */
+@media (max-width: 576px) {
+  .container {
+    background-size: cover;
+
+
+  }
+}
+
+/* Tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  .container {
+    background-size: cover;
+
+  }
+}
+
+/* Desktops and laptops */
+@media (min-width: 769px) {
+  .container {
+    background-size: cover;
+
+  }
+}
+/*end media queries*/
+
 
 .construction{
   top: 40%;
@@ -40,6 +68,10 @@
   align-items: center;
   margin-left: 10%;
 
+}
+.construction button:hover{
+  scale: 1.09;
+  color: white;
 }
 
 .launch-time{
@@ -101,10 +133,6 @@
   }
 }
 
-.construction button{
-display: flex;
-}
-
 .row{
     position: absolute;
     bottom: 0;
@@ -163,4 +191,46 @@ display: flex;
     margin-top: 60px;
     margin-bottom: 60px;
   }
+}
+/* Large desktops */
+@media (min-width: 1200px) {
+  .header-logo img {
+    width: 180px;
+    height: 180px;
+  }
+}
+/* Landscape orientation */
+@media (orientation: landscape) {
+.header-logo img {
+width: 120px;
+height: 120px;
+}
+
+.construction {
+padding-top: 20px;
+text-align: center;
+}
+
+.launch-time {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+}
+
+/* Small devices with high density screens */
+@media (min-width: 320px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+.header-logo img {
+width: 240px;
+height: 240px;
+}
+
+.construction {
+padding-top: 40px;
+text-align: center;
+}
+
+.launch-time {
+margin-top: 50px;
+margin-bottom: 50px;
+}
 }
