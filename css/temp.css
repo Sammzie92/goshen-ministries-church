@@ -75,6 +75,7 @@
   align-items: center;
   margin-left: 10%;
   font-family: "Merriweather Sans", sans-serif;
+  text-decoration: none;
 
 }
 .construction button:hover{
