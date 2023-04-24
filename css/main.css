@@ -1703,10 +1703,7 @@ input::-moz-focus-inner {
 }
 
 
-/* ===================================================================
- * # site header
- *
- * ------------------------------------------------------------------- */
+/* site header */
 .s-header {
   z-index: 100;
   height: 7.2rem;
@@ -2154,8 +2151,7 @@ input::-moz-focus-inner {
   top: calc(50% + 2px);
 }
 
-/* animate .hero-content
- * ------------------------------------------------------------------- */
+/* animate .hero-content */
 html.ss-preload .hero-content {
   opacity: 0;
 }
@@ -2397,10 +2393,7 @@ html.no-csstransitions .hero-content {
 }
 
 
-/* ===================================================================
- * # about
- *
- * ------------------------------------------------------------------- */
+/* about */
 .s-about {
   padding-top: 19.6rem;
   padding-bottom: 19.6rem;
@@ -2594,10 +2587,7 @@ html.no-csstransitions .hero-content {
 
 }
 
-/* ===================================================================
- * # events 
- *
- * ------------------------------------------------------------------- */
+/* events */
 .s-events {
   padding-top: 10.4rem;
   padding-bottom: 16rem;
@@ -2612,10 +2602,7 @@ html.no-csstransitions .hero-content {
   margin-bottom: 2.4rem;
 }
 
-/* ===================================================================
- * # current series 
- *
- * ------------------------------------------------------------------- */
+/*  current series  */
 .s-series {
   padding-top: 19.2rem;
   padding-bottom: 19.2rem;
@@ -2842,10 +2829,7 @@ html.no-csstransitions .hero-content {
 }
 
 
-/* ===================================================================
- * # social  
- *
- * ------------------------------------------------------------------- */
+/* social   */
 .s-social {
   padding-top: 10.4rem;
   padding-bottom: 9.6rem;
