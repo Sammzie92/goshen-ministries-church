@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.container{
+.body{
   width: 100vw;
   height: 100vh;
   background-image: url(../images/josh.jpg);
@@ -11,30 +11,148 @@
   background-repeat: no-repeat;
   position: relative;
 }
-/*media queries for container*/
+/*media queries for body*/
 /* Mobile devices */
-@media (max-width: 576px) {
-  .container {
-    background-size: cover;
-
+@media only screen and (max-width: 540px) and (max-height: 868px) {
+  .body {
+    background-image: url(../images/megan.jpg);
+    background-size: cover!important;
 
   }
+  .site-logo img{
+    width: 145px !important;
+    height: 145px !important;
+  }
+      .construction{
+      margin-left: 5 !important;
+    }
+    .construction h1{
+      font-size: 44px !important;
+      font-weight: bold !important;
+      font-family: "Dongle", sans-serif;
+      margin-top: 35px !important;
 }
 
-/* Tablets */
-@media (min-width: 577px) and (max-width: 768px) {
-  .container {
-    background-size: cover;
+    .construction p{
+      font-size: 36px !important;
 
-  }
+}
+    .construction button{
+      padding: 10px 17px !important;
+      margin-top: 50px !important;
+      font-family: "Poppins", sans-serif;
+
+     }
+
 }
 
-/* Desktops and laptops */
-@media (min-width: 769px) {
-  .container {
+/* even smaller screens */
+@media only screen and (max-width: 360px) and (max-height: 867px) {
+  .body {
     background-size: cover;
-
+    background-image: url(../images/megan.jpg);
   }
+    .site-logo img{
+    width: 145px !important;
+    height: 145px !important;
+  }
+        .construction{
+      margin-left: 0 !important;
+    }
+    .construction h1{
+      font-size: 54px !important;
+      font-weight: bold !important;
+      font-family: "Dongle", sans-serif;
+      margin-top: 35px !important;
+}
+
+    .construction p{
+      font-size: 46px !important;
+
+}
+    .construction button{
+      padding: 7px 15px !important;
+      margin-top: 50px !important;
+      font-family: "Poppins", sans-serif;
+
+     }
+}
+@media only screen and (max-width: 280px) and (max-height: 653px) {
+  .body {
+    background-size: cover;
+    background-image: url(../images/megan.jpg);
+  }
+    .site-logo img{
+    width: 115px !important;
+    height: 115px !important;
+  }
+    .construction{
+      margin-left: 0 !important;
+    }
+    .construction h1{
+      font-size: 44px !important;
+      font-weight: bold !important;
+      font-family: "Dongle", sans-serif;
+      margin-top: 35px !important;
+}
+
+    .construction p{
+      font-size: 36px !important;
+
+}
+    .construction button{
+      padding: 7px 15px !important;
+      margin-top: 50px !important;
+      font-family: "Poppins", sans-serif;
+
+     }
+
+}
+@media only screen and (min-width: 412px) and (max-height: 915px) {
+  .body {
+    background-size: cover;
+    background-image: url(../images/megan.jpg);
+  }
+    .site-logo img{
+    width: 145px !important;
+    height: 145px !important;
+  }
+        .construction{
+      margin-left: 0 !important;
+    }
+    .construction h1{
+      font-size: 54px !important;
+      font-weight: bold !important;
+      font-family: "Dongle", sans-serif;
+      margin-top: 35px !important;
+}
+
+    .construction p{
+      font-size: 46px !important;
+
+}
+    .construction button{
+      padding: 7px 15px !important;
+      margin-top: 50px !important;
+      font-family: "Poppins", sans-serif;
+
+     }
+}
+
+/* landscape devices */
+@media only screen and (max-width: 1024px) and (max-height: 600px) {
+  .body {
+    background-size: cover;
+  }
+      .site-logo img{
+    width: 165px !important;
+    height: 165px !important;
+  }
+    .construction{
+      margin-left: 0 !important;
+      margin-top: 55px !important;
+    }
+
 }
 /*end media queries*/
 
@@ -66,6 +184,7 @@
 .construction button{
   background: transparent;
   border: 2px solid #ffffff;
+  border-radius: 10px 10px 10px 10px;
   outline: none;
   padding: 12px 25px;
   color: white;
@@ -82,6 +201,9 @@
   scale: 1.09;
   color: white;
 }
+.construction a{
+      text-decoration: none;
+    }
 
 .launch-time{
   display: flex;
