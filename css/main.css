@@ -1999,8 +1999,8 @@ input::-moz-focus-inner {
   -ms-flex-align: end;
   align-items: flex-end;
   position: relative;
-  -webkit-animation-duration: 3s;
-    animation-duration: 3s;
+  -webkit-animation-duration: 4s;
+    animation-duration: 4s;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
 }
