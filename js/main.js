@@ -129,6 +129,6 @@
 })(jQuery);
 
          function loadVideo() {
-            var playerDiv = document.getElementById('player');
-            playerDiv.innerHTML = '<iframe width="1280" height="720" src="https://www.youtube.com/embed/et1qHmId9S4?rel=0" frameborder="0" allowfullscreen></iframe>';
+             const playerDiv = document.getElementById('player');
+             playerDiv.innerHTML = '<iframe width="1280" height="720" src="https://www.youtube.com/embed/et1qHmId9S4?rel=0" allowfullscreen></iframe>';
           }

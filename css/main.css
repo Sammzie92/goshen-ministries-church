@@ -2996,12 +2996,14 @@ html.no-csstransitions .hero-content {
   border-color: #21070a;
   background-color: #21070a;
   padding: 0 4rem;
+
 }
 
 .s-footer .btn--footer:hover,
 .s-footer .btn--footer:focus {
   border-color: #000000;
   background-color: #000000;
+  scale: 1.05;
 }
 
 .s-footer .row .column:first-child {
@@ -3228,7 +3230,7 @@ html.no-csstransitions .hero-content {
 .page-content {
   padding-top: 12rem;
   padding-bottom: 16rem;
-  background-color: #ffffff;
+  background-color: #f5f1f2;
 }
 
 .page-content .row {
