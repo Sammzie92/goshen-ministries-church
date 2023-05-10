@@ -1757,7 +1757,7 @@ input::-moz-focus-inner {
 .header-nav {
   list-style: none;
   font-family: "Montserrat", sans-serif;
-  font-size: .9rem;
+  font-size: 1rem;
   line-height: 4.8rem;
   text-transform: uppercase;
   letter-spacing: .35rem;
