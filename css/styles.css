@@ -158,6 +158,32 @@
     z-index: 9999;
 
 }
+@media screen and (max-width: 844px) {
+    .breeding-rhombus-spinner {
+        width: 5em;
+        left: 8.5em;
+
+
+    }
+    .header-logo {
+        height: 6em;
+        width: 6em;
+        left: 0.8em;
+    }
+    
+}
+@media screen and (max-width: 868px) {
+    .breeding-rhombus-spinner{
+        left: 14.5em;
+    }
+
+}
+@media screen and (max-width: 667px) {
+    .breeding-rhombus-spinner{
+        left: 8em;
+    }
+
+}
 
 
 

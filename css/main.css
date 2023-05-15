@@ -44,6 +44,7 @@ color: #3b0d11;
 transition: all 0.3s ease-in-out;
 }
 
+
 a:hover,
 a:focus,
 a:active {
@@ -3155,8 +3156,8 @@ html.no-csstransitions .hero-content {
   }
 
   .footer-logo img {
-    width: 116px;
-    height: 30px;
+    width: 7em;
+    height: 7em;
   }
 
 }

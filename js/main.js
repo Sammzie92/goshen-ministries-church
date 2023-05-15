@@ -126,6 +126,32 @@
 
     })();
 
+
+    $(document).ready(function() {
+  $('#contactForm').submit(function(e) {
+    e.preventDefault();
+    var form = $(this);
+    var url = form.attr('action');
+    $.ajax({
+      type: 'POST',
+      url: url,
+      data: form.serialize(),
+      success: function(data)
+      {
+        $('#successMsg').html('Your message has been sent.').show();
+        setTimeout(function() {
+          $('#successMsg').hide();
+        }, 10000); // hide message after 10 seconds
+      },
+      error: function(jqXHR, textStatus, errorThrown)
+      {
+        $('#errorMsg').html('Sorry, there was an error sending your message. Please try again later.').show();
+      }
+    });
+  });
+});
+
+
 })(jQuery);
 
          function loadVideo() {
