@@ -24,6 +24,19 @@ html,
 body {
 height: 100%;
 }
+.hero-video{
+  position: relative;
+  overflow: hidden;
+}
+
+ .hero-video video{
+    z-index: 0000;
+    position: absolute;
+    object-fit: cover;
+    transform: translateY(-50%, -50%);
+   min-height: max-content;
+   min-width: 100%;
+ }
 
 body {
   background: #6f3545;
@@ -1969,7 +1982,7 @@ input::-moz-focus-inner {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height:auto;
   background-color: #050505;
   opacity: .5;
 }
