@@ -1633,10 +1633,19 @@ input::-moz-focus-inner {
 .block-list h5,
 .block-list h6 {
   margin-top: 0;
+
+
 }
 
 .block-list__item {
   margin-bottom: 3.2rem;
+}
+.block-list__item h6{
+  border: 2px solid #3b0d11;
+  background-color: #3b0d11;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .block-list__title-with-num {
@@ -3220,7 +3229,7 @@ html.no-csstransitions .hero-content {
 }
 
 .page-header--about {
-  background-image: url(../images/header-bgs/about-header-bg-2000.jpg);
+  background-image: url(../images/media.jpg);
 }
 
 .page-header--contact {

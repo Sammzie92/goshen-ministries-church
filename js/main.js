@@ -152,6 +152,20 @@
 });
 
 
+
+    fetch('texts/Purpose.txt')
+        .then(response => response.text())
+        .then(content => {
+            // Insert the fetched content into the specified element
+            document.getElementById('purpose-content').textContent = content;
+        })
+        .catch(error => console.error('Error fetching content:', error));
+
+
+
+
+
+
 })(jQuery);
 
          function loadVideo() {
